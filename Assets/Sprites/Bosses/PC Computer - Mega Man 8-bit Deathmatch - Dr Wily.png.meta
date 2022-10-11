@@ -1,0 +1,431 @@
+fileFormatVersion: 2
+guid: 09b05efa46f9ac74f8c1b156184774aa
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PC Computer - Mega Man 8-bit Deathmatch - Dr Wily_0
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 578
+        width: 29
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b3ae769c3ffddb4188bd31d2013461d
+      internalID: 342110695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Mega Man 8-bit Deathmatch - Dr Wily_1
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 538
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69c0bcaa9b5087943ac71b3aaf4f32bf
+      internalID: -249459966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Mega Man 8-bit Deathmatch - Dr Wily_2
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 497
+        width: 29
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 254b3fd33abeb06498ff2a337f239da3
+      internalID: -382034117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Mega Man 8-bit Deathmatch - Dr Wily_3
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 457
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a21aac9a5af564542ad2e33ab08f9c29
+      internalID: -1116726375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Mega Man 8-bit Deathmatch - Dr Wily_4
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 418
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffee51e3e4789a24fbbb8fffb35b3256
+      internalID: 1573122261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Mega Man 8-bit Deathmatch - Dr Wily_5
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 378
+        width: 32
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b04447bef8651d40bb1196a76521853
+      internalID: 1681267142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Mega Man 8-bit Deathmatch - Dr Wily_6
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 337
+        width: 32
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc0e89de7606afb4c834addc02a4a13c
+      internalID: -1079130377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Mega Man 8-bit Deathmatch - Dr Wily_7
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 313
+        width: 33
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd210cc08e12b7f449744ba436f76b3c
+      internalID: -1001772650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Mega Man 8-bit Deathmatch - Dr Wily_8
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 578
+        width: 29
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bde56760452aaf4db513e1afef78b22
+      internalID: 389465338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Mega Man 8-bit Deathmatch - Dr Wily_9
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 537
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 570a434f4a30c6c47b64aa32f2492872
+      internalID: 345271937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Mega Man 8-bit Deathmatch - Dr Wily_10
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 498
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dcde2db70185a9448d3f8c9dd78827a
+      internalID: -1331192358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Mega Man 8-bit Deathmatch - Dr Wily_11
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 457
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8769c6aa9f80f642af79bda7a0c4a25
+      internalID: -1444045290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Mega Man 8-bit Deathmatch - Dr Wily_12
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 418
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5e9d57ab8f2af14bb4a74266e398018
+      internalID: -1826773172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Mega Man 8-bit Deathmatch - Dr Wily_13
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 378
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cbc0cae21df7764aa36c58916b92332
+      internalID: 811615666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      PC Computer - Mega Man 8-bit Deathmatch - Dr Wily_2: -382034117
+      PC Computer - Mega Man 8-bit Deathmatch - Dr Wily_8: 389465338
+      PC Computer - Mega Man 8-bit Deathmatch - Dr Wily_0: 342110695
+      PC Computer - Mega Man 8-bit Deathmatch - Dr Wily_11: -1444045290
+      PC Computer - Mega Man 8-bit Deathmatch - Dr Wily_1: -249459966
+      PC Computer - Mega Man 8-bit Deathmatch - Dr Wily_7: -1001772650
+      PC Computer - Mega Man 8-bit Deathmatch - Dr Wily_4: 1573122261
+      PC Computer - Mega Man 8-bit Deathmatch - Dr Wily_10: -1331192358
+      PC Computer - Mega Man 8-bit Deathmatch - Dr Wily_13: 811615666
+      PC Computer - Mega Man 8-bit Deathmatch - Dr Wily_6: -1079130377
+      PC Computer - Mega Man 8-bit Deathmatch - Dr Wily_12: -1826773172
+      PC Computer - Mega Man 8-bit Deathmatch - Dr Wily_9: 345271937
+      PC Computer - Mega Man 8-bit Deathmatch - Dr Wily_3: -1116726375
+      PC Computer - Mega Man 8-bit Deathmatch - Dr Wily_5: 1681267142
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
