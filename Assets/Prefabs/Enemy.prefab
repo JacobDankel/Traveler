@@ -146,8 +146,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d79f8b44475b4c4ab46cda681e1ba13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bod: {fileID: 0}
-  col: {fileID: 0}
+  bod: {fileID: 8632071949406533568}
+  col: {fileID: 8198615011597091138}
   target: {fileID: 0}
-  speed: 0.1
+  speed: 0.15
   maxHP: 10
