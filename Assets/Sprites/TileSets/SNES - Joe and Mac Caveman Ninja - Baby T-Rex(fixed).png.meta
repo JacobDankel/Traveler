@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a6db088543a60d648ae696394e31f0ae
+guid: f867e1d36df8c32478d7614b5fbf9f1e
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 64
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -105,13 +105,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: tileset_0
+      name: SNES - Joe and Mac Caveman Ninja - Baby T-Rex(fixed)_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 64
-        width: 16
-        height: 16
+        x: 8
+        y: 613
+        width: 88
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,20 +119,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1d2bd1d42df20854997e4920d0d6d028
-      internalID: -1132835105
+      spriteID: 7577240386a3b4f4ba32179aa449d210
+      internalID: -1881060778
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_1
+      name: SNES - Joe and Mac Caveman Ninja - Baby T-Rex(fixed)_1
       rect:
         serializedVersion: 2
-        x: 16
-        y: 64
-        width: 16
-        height: 16
+        x: 97
+        y: 613
+        width: 88
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,20 +140,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c6d4fffc11c5d25459e8ff89d10fdbc2
-      internalID: -1133711119
+      spriteID: 82f6f8460340caf408a9d5415a1d379e
+      internalID: -686014243
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_2
+      name: SNES - Joe and Mac Caveman Ninja - Baby T-Rex(fixed)_2
       rect:
         serializedVersion: 2
-        x: 32
-        y: 64
-        width: 16
-        height: 16
+        x: 186
+        y: 613
+        width: 88
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -161,20 +161,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 41006f4c1885a3b43b278c811c1d2f99
-      internalID: -1327429749
+      spriteID: 66a753c4f1b8bb34892e75538a09f280
+      internalID: 1860637705
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_3
+      name: SNES - Joe and Mac Caveman Ninja - Baby T-Rex(fixed)_3
       rect:
         serializedVersion: 2
-        x: 48
-        y: 64
-        width: 16
-        height: 16
+        x: 275
+        y: 613
+        width: 88
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,20 +182,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1bff34431ade6c9458bbe32c07cd72cd
-      internalID: -261937051
+      spriteID: 9c4682e9bf09fdd4cb6096e0e6788719
+      internalID: 758401196
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_4
+      name: SNES - Joe and Mac Caveman Ninja - Baby T-Rex(fixed)_4
       rect:
         serializedVersion: 2
-        x: 0
-        y: 48
-        width: 16
-        height: 16
+        x: 8
+        y: 547
+        width: 88
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -203,20 +203,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1c1d1c3bc0c8e9c4e8b322edc4d0567c
-      internalID: 516613035
+      spriteID: f776d82acf00ea34e88ed8f7a6671f89
+      internalID: -688275069
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_5
+      name: SNES - Joe and Mac Caveman Ninja - Baby T-Rex(fixed)_5
       rect:
         serializedVersion: 2
-        x: 16
-        y: 48
-        width: 16
-        height: 16
+        x: 97
+        y: 547
+        width: 88
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -224,20 +224,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 18caecf63a8a1c3449db3e5a3ab93a52
-      internalID: 671830521
+      spriteID: c326de1ad220d984fa7a69a92b668107
+      internalID: -2083260888
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_6
+      name: SNES - Joe and Mac Caveman Ninja - Baby T-Rex(fixed)_6
       rect:
         serializedVersion: 2
-        x: 32
-        y: 48
-        width: 16
-        height: 16
+        x: 186
+        y: 547
+        width: 88
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -245,20 +245,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0fcb160e6bbdabe4da1b0738567ec6e8
-      internalID: -822440990
+      spriteID: 9b87bf37dc831064c9bd63ed990c5453
+      internalID: 939919389
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_7
+      name: SNES - Joe and Mac Caveman Ninja - Baby T-Rex(fixed)_7
       rect:
         serializedVersion: 2
-        x: 48
-        y: 48
-        width: 16
-        height: 16
+        x: 275
+        y: 547
+        width: 88
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -266,20 +266,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 95514eca7946265478fdccd861806e87
-      internalID: -1388643937
+      spriteID: 2fe748db2629cab4a96ea0164b33a77f
+      internalID: -795119906
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_8
+      name: SNES - Joe and Mac Caveman Ninja - Baby T-Rex(fixed)_8
       rect:
         serializedVersion: 2
-        x: 0
-        y: 32
-        width: 16
-        height: 16
+        x: 97
+        y: 465
+        width: 88
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -287,20 +287,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c82168590a8f7e64f9fd359d29454f8b
-      internalID: -747920667
+      spriteID: d725a3012b7338d4cb73bc78c2db6168
+      internalID: 566203291
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_9
+      name: SNES - Joe and Mac Caveman Ninja - Baby T-Rex(fixed)_9
       rect:
         serializedVersion: 2
-        x: 16
-        y: 32
-        width: 16
-        height: 16
+        x: 8
+        y: 481
+        width: 88
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -308,20 +308,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 15a23375458bbd3498ae86dc096fdfbd
-      internalID: -136764516
+      spriteID: a5b278c6a70334d45a856710256e5443
+      internalID: 537116763
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lab_glass
+      name: SNES - Joe and Mac Caveman Ninja - Baby T-Rex(fixed)_10
       rect:
         serializedVersion: 2
-        x: 32
-        y: 32
-        width: 16
-        height: 16
+        x: 201
+        y: 465
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -329,20 +329,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 637c691e4ba67714b976c0547fdbb591
-      internalID: -1980709070
+      spriteID: c614c718e3d0bef458e3f56fdb3e7dbc
+      internalID: 1634167150
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_11
+      name: SNES - Joe and Mac Caveman Ninja - Baby T-Rex(fixed)_11
       rect:
         serializedVersion: 2
-        x: 48
-        y: 32
-        width: 16
-        height: 16
+        x: 371
+        y: 547
+        width: 88
+        height: 80
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -350,20 +350,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d53c76f0e22d595469638105053f25e9
-      internalID: -991978551
+      spriteID: 8f66dcee976c99646b61b2b09de47e74
+      internalID: -885007930
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_12
+      name: SNES - Joe and Mac Caveman Ninja - Baby T-Rex(fixed)_12
       rect:
         serializedVersion: 2
-        x: 0
-        y: 16
-        width: 16
-        height: 16
+        x: 8
+        y: 156
+        width: 88
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -371,20 +371,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b5c1ffaddcf38ce4696e147ff644f9c6
-      internalID: 1724861027
+      spriteID: e9a7ec9af056f7e4b9c67f3c6000a169
+      internalID: 544323984
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_13
+      name: SNES - Joe and Mac Caveman Ninja - Baby T-Rex(fixed)_13
       rect:
         serializedVersion: 2
-        x: 16
-        y: 16
-        width: 16
-        height: 16
+        x: 8
+        y: 90
+        width: 88
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -392,20 +392,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8a9a682b440e6a04ca9cfb10be7cc321
-      internalID: 1134181339
+      spriteID: 2943ad309465baa48bbb99642a5d4133
+      internalID: 1385083345
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_14
+      name: SNES - Joe and Mac Caveman Ninja - Baby T-Rex(fixed)_14
       rect:
         serializedVersion: 2
-        x: 32
-        y: 16
-        width: 16
-        height: 16
+        x: 97
+        y: 90
+        width: 88
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -413,20 +413,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a0f41693e1c10424cb31d42753c196f6
-      internalID: -703906779
+      spriteID: 27de0d807f80a334fb69176c60d8b988
+      internalID: 1918545640
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_15
+      name: SNES - Joe and Mac Caveman Ninja - Baby T-Rex(fixed)_15
       rect:
         serializedVersion: 2
-        x: 48
-        y: 16
-        width: 16
-        height: 16
+        x: 186
+        y: 90
+        width: 88
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -434,20 +434,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 84f5e527ba98efe46b71e4569a45883c
-      internalID: -669066508
+      spriteID: 1a20df9eb09bd3546aaba21cb08d9411
+      internalID: 1481122595
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_16
+      name: SNES - Joe and Mac Caveman Ninja - Baby T-Rex(fixed)_16
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 16
-        height: 16
+        x: 275
+        y: 90
+        width: 88
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -455,20 +455,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 27058075de6f15242a7bbb66881aeba5
-      internalID: -1105913843
+      spriteID: 8d3002336dec6474bb18edc6b35f9e0c
+      internalID: -434995278
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_17
+      name: SNES - Joe and Mac Caveman Ninja - Baby T-Rex(fixed)_17
       rect:
         serializedVersion: 2
-        x: 16
-        y: 0
-        width: 16
-        height: 16
+        x: 371
+        y: 90
+        width: 88
+        height: 80
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -476,8 +476,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c2c7400dc29c8a4dbd1cec05f81e1d5
-      internalID: 839514481
+      spriteID: dc2abd9bdfaf9614c8a44b40be06728b
+      internalID: -599979005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Joe and Mac Caveman Ninja - Baby T-Rex(fixed)_18
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 24
+        width: 88
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31e68f3813dafd745a95e8ac458838a1
+      internalID: -165807621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Joe and Mac Caveman Ninja - Baby T-Rex(fixed)_19
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 8
+        width: 88
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1850f48afc32f7e408e98d9bc3594687
+      internalID: 1438912174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Joe and Mac Caveman Ninja - Baby T-Rex(fixed)_20
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 90
+        width: 112
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30d3ae45e72d8dd49af684da5a010a66
+      internalID: -398278503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Joe and Mac Caveman Ninja - Baby T-Rex(fixed)_dead
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 547
+        width: 112
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb757fcdec8e36143a4aecd2ddebcd93
+      internalID: -3215845
       vertices: []
       indices: 
       edges: []
@@ -493,24 +577,28 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      tileset_0: -1132835105
-      tileset_12: 1724861027
-      tileset_4: 516613035
-      tileset_1: -1133711119
-      tileset_6: -822440990
-      tileset_11: -991978551
-      tileset_5: 671830521
-      tileset_15: -669066508
-      tileset_8: -747920667
-      tileset_16: -1105913843
-      tileset_17: 839514481
-      tileset_2: -1327429749
-      tileset_13: 1134181339
-      tileset_9: -136764516
-      tileset_7: -1388643937
-      tileset_3: -261937051
-      tileset_14: -703906779
-      lab_glass: -1980709070
+      SNES - Joe and Mac Caveman Ninja - Baby T-Rex(fixed)_15: 1481122595
+      SNES - Joe and Mac Caveman Ninja - Baby T-Rex(fixed)_11: -885007930
+      SNES - Joe and Mac Caveman Ninja - Baby T-Rex(fixed)_1: -686014243
+      SNES - Joe and Mac Caveman Ninja - Baby T-Rex(fixed)_0: -1881060778
+      SNES - Joe and Mac Caveman Ninja - Baby T-Rex(fixed)_3: 758401196
+      SNES - Joe and Mac Caveman Ninja - Baby T-Rex(fixed)_18: -165807621
+      SNES - Joe and Mac Caveman Ninja - Baby T-Rex(fixed)_13: 1385083345
+      SNES - Joe and Mac Caveman Ninja - Baby T-Rex(fixed)_2: 1860637705
+      SNES - Joe and Mac Caveman Ninja - Baby T-Rex(fixed)_4: -688275069
+      SNES - Joe and Mac Caveman Ninja - Baby T-Rex(fixed)_12: 544323984
+      SNES - Joe and Mac Caveman Ninja - Baby T-Rex(fixed)_7: -795119906
+      SNES - Joe and Mac Caveman Ninja - Baby T-Rex(fixed)_10: 1634167150
+      SNES - Joe and Mac Caveman Ninja - Baby T-Rex(fixed)_14: 1918545640
+      SNES - Joe and Mac Caveman Ninja - Baby T-Rex(fixed)_19: 1438912174
+      SNES - Joe and Mac Caveman Ninja - Baby T-Rex(fixed)_20: -398278503
+      SNES - Joe and Mac Caveman Ninja - Baby T-Rex(fixed)_16: -434995278
+      SNES - Joe and Mac Caveman Ninja - Baby T-Rex(fixed)_17: -599979005
+      SNES - Joe and Mac Caveman Ninja - Baby T-Rex(fixed)_6: 939919389
+      SNES - Joe and Mac Caveman Ninja - Baby T-Rex(fixed)_8: 566203291
+      SNES - Joe and Mac Caveman Ninja - Baby T-Rex(fixed)_9: 537116763
+      SNES - Joe and Mac Caveman Ninja - Baby T-Rex(fixed)_dead: -3215845
+      SNES - Joe and Mac Caveman Ninja - Baby T-Rex(fixed)_5: -2083260888
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

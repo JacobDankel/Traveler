@@ -21,8 +21,8 @@ public class BulletScript : MonoBehaviour
         delay = 2;
 
 
-        Debug.Log(transform.rotation);
-        rb.AddForce(new Vector2(transform.rotation.x * bulSpd, transform.rotation.z * bulSpd));
+        Debug.Log(transform.rotation.z + ", " + transform.rotation.w);
+        rb.AddForce(new Vector2(transform.rotation.z * bulSpd * Time.deltaTime, transform.rotation.w * bulSpd * Time.deltaTime));
 
         Destroy(gameObject, delay);
     }
