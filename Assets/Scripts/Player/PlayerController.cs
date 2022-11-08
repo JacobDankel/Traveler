@@ -17,6 +17,7 @@ public class PlayerController : MonoBehaviour
     public GameObject Bullet;
     private Vector3 mouse_pos;
     public Transform gun;
+    public Transform gunTip;
     private Vector3 object_pos;
     private float angle;
     
@@ -99,6 +100,6 @@ public class PlayerController : MonoBehaviour
     {
         Quaternion direction = Quaternion.Euler(new Vector3(0, 0, angle));
 
-        Instantiate(Bullet, gun.position, direction);
+        Instantiate(Bullet, gunTip.position, direction);
     }
 }
