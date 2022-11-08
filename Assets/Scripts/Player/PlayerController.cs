@@ -17,6 +17,7 @@ public class PlayerController : MonoBehaviour
     public GameObject Bullet;
     private Vector3 mouse_pos;
     public Transform gun;
+    public Transform gunTip;
     private Vector3 object_pos;
     private float angle;
     
@@ -26,7 +27,6 @@ public class PlayerController : MonoBehaviour
     {
         col = GetComponent<BoxCollider2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
-        speed *= 0.01f;                                     // Scales the movement to a more manageable amount     x * 0.01f = x
     }
 
 
@@ -35,7 +35,7 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         // Player & Gun faces the mouse at all times
-        if(Camera.main.ScreenToWorldPoint(Input.mousePosition).x >= gameObject.transform.position.x)
+        if (Camera.main.ScreenToWorldPoint(Input.mousePosition).x >= gameObject.transform.position.x)
         {
             spriteRenderer.flipX = false;
             gun.transform.localPosition = new Vector3(1, 0, 0);
@@ -55,12 +55,16 @@ public class PlayerController : MonoBehaviour
         angle = Mathf.Atan2(mouse_pos.y, mouse_pos.x) * Mathf.Rad2Deg;
         gun.transform.rotation = Quaternion.Euler(new Vector3(0, 0, angle));
 
-        if (Input.GetMouseButtonDown(0)) // Primary Button
+        // Primary Button
+
+        if (Input.GetMouseButtonDown(0)) 
         {
             Shoot();
         }
-
-        if (Input.GetMouseButtonDown(1)) // Secondary Button
+        
+        // Secondary Button
+        
+        if (Input.GetMouseButtonDown(1)) 
         {
 
         }
@@ -73,22 +77,22 @@ public class PlayerController : MonoBehaviour
 
         if (Input.GetKey(KeyCode.W))
         {
-            gameObject.transform.position = new Vector3(transform.position.x, transform.position.y + speed, transform.position.z);
+            gameObject.transform.position = new Vector3(transform.position.x, transform.position.y + speed * Time.deltaTime, transform.position.z);
         }
 
         if (Input.GetKey(KeyCode.S))
         {
-            gameObject.transform.position = new Vector3(transform.position.x, transform.position.y - speed, transform.position.z);
+            gameObject.transform.position = new Vector3(transform.position.x, transform.position.y - speed * Time.deltaTime, transform.position.z);
         }
 
         if (Input.GetKey(KeyCode.A))
         {
-            gameObject.transform.position = new Vector3(transform.position.x - speed, transform.position.y, transform.position.z);
+            gameObject.transform.position = new Vector3(transform.position.x - speed * Time.deltaTime, transform.position.y, transform.position.z);
         }
 
         if (Input.GetKey(KeyCode.D))
         {
-            gameObject.transform.position = new Vector3(transform.position.x + speed, transform.position.y, transform.position.z);
+            gameObject.transform.position = new Vector3(transform.position.x + speed * Time.deltaTime, transform.position.y, transform.position.z);
         }
     }
 
@@ -96,6 +100,6 @@ public class PlayerController : MonoBehaviour
     {
         Quaternion direction = Quaternion.Euler(new Vector3(0, 0, angle));
 
-        Instantiate(Bullet, gun.position, direction);
+        Instantiate(Bullet, gunTip.position, direction);
     }
 }
