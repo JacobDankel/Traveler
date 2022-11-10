@@ -7,6 +7,6 @@ public class MenuScript : MonoBehaviour
 {
     public void playLevel()
     {
-        SceneManager.LoadScene("Test Scene");
+        SceneManager.LoadScene("LabLevel");
     }
 }
