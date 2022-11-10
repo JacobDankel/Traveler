@@ -160,5 +160,5 @@ MonoBehaviour:
   bod: {fileID: 1956562924978894134}
   col: {fileID: 4263338875230322452}
   target: {fileID: 0}
-  speed: 0.12
+  speed: 1
   maxHP: 3

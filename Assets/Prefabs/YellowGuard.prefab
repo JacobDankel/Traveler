@@ -160,5 +160,5 @@ MonoBehaviour:
   bod: {fileID: 1956562924978894134, guid: 59f9849f1eb6842e8bd7032875fe1cee, type: 3}
   col: {fileID: 4263338875230322452, guid: 59f9849f1eb6842e8bd7032875fe1cee, type: 3}
   target: {fileID: 0}
-  speed: 0.12
+  speed: 1
   maxHP: 3

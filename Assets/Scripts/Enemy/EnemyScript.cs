@@ -26,7 +26,6 @@ public class EnemyScript : MonoBehaviour
         //target = FindObjectOfType<PlayerController>();
 
         health = maxHP;
-        speed *= 0.01f;
     }
 
     private void Update()
@@ -68,7 +67,7 @@ public class EnemyScript : MonoBehaviour
             speedX = -speed;
         }
 
-        gameObject.transform.position = new Vector3(transform.position.x + speedX, transform.position.y + speedY, transform.position.z);
+        gameObject.transform.position = new Vector3(transform.position.x + speedX * Time.deltaTime, transform.position.y + speedY *Time.deltaTime, transform.position.z);
 
     }
 
