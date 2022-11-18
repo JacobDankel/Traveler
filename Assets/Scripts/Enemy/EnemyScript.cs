@@ -38,6 +38,19 @@ public class EnemyScript : MonoBehaviour
 
     private void LateUpdate()
     {
+        move();
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Bullet"))
+        {
+            Debug.Log("Enemy Hit");
+            health -= 1;
+        }
+    }
+    private void move()
+    {
         //Movement
         Vector2 currentPos = gameObject.transform.position;
         Vector2 targetPos = target.transform.position;
@@ -67,16 +80,6 @@ public class EnemyScript : MonoBehaviour
             speedX = -speed;
         }
 
-        gameObject.transform.position = new Vector3(transform.position.x + speedX * Time.deltaTime, transform.position.y + speedY *Time.deltaTime, transform.position.z);
-
-    }
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.CompareTag("Bullet"))
-        {
-            Debug.Log("Enemy Hit");
-            health -= 1;
-        }
+        gameObject.transform.position = new Vector3(transform.position.x + speedX * Time.deltaTime, transform.position.y + speedY * Time.deltaTime, transform.position.z);
     }
 }

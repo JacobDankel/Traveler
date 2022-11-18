@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class GameController : MonoBehaviour
 {
-    
-    // Start is called before the first frame update
+
     void Start()
     {
         
@@ -14,9 +13,6 @@ public class GameController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-
-
         //Quitting Game
         if (Input.GetKeyDown(KeyCode.Escape)){
             Application.Quit();

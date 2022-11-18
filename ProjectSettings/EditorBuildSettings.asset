@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/DirtLevel.unity
     guid: 70f601e695a39cb46b86db1475c6a8d7
+  - enabled: 1
+    path: Assets/Scenes/BossLevel.unity
+    guid: 2056787b2e7ec704cb7adc186f1b6b1d
   m_configObjects: {}
