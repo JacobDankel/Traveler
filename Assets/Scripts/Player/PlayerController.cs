@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -12,6 +13,10 @@ public class PlayerController : MonoBehaviour
     //Movement
     [Space]
     public float speed;
+
+    //Portal
+    [Space]
+    public LevelLoader portal;
 
     //Shooting
     public GameObject Bullet;
@@ -56,19 +61,38 @@ public class PlayerController : MonoBehaviour
         gun.transform.rotation = Quaternion.Euler(new Vector3(0, 0, angle));
 
         // Primary Button
-
         if (Input.GetMouseButtonDown(0)) 
         {
             Shoot();
         }
         
         // Secondary Button
-        
         if (Input.GetMouseButtonDown(1)) 
         {
 
         }
 
+        // Interact Button 'E'
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            portal.teleport();
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Portal"))
+        {
+            portal = collision.GetComponent<LevelLoader>();
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Portal"))
+        {
+            portal = null;
+        }
     }
 
     private void LateUpdate()

@@ -308,7 +308,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 197144047447318082, guid: 2c28e9cafa00db34194cb2da2a82befb, type: 3}
       propertyPath: m_Name
-      value: LevelLoad
+      value: DirtLevelPortal
       objectReference: {fileID: 0}
     - target: {fileID: 7921277237072166791, guid: 2c28e9cafa00db34194cb2da2a82befb, type: 3}
       propertyPath: level
@@ -9965,7 +9965,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da0c243b25c22954bae15de2aa3112bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gate: {fileID: 1399058485}
 --- !u!1 &949909909
 GameObject:
   m_ObjectHideFlags: 0
@@ -10304,17 +10303,6 @@ PrefabInstance:
       objectReference: {fileID: 856132044}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 59f9849f1eb6842e8bd7032875fe1cee, type: 3}
---- !u!114 &1399058485 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3914086539214806616, guid: 255019cfd8b53064c833ebeb5f30fc1b, type: 3}
-  m_PrefabInstance: {fileID: 1642082285}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7d61d39706df8404fb0e2fbc346f6b4b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1642082285
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10325,6 +10313,14 @@ PrefabInstance:
     - target: {fileID: 598051847192008505, guid: 255019cfd8b53064c833ebeb5f30fc1b, type: 3}
       propertyPath: m_Name
       value: Gate
+      objectReference: {fileID: 0}
+    - target: {fileID: 2468499415092457980, guid: 255019cfd8b53064c833ebeb5f30fc1b, type: 3}
+      propertyPath: m_Name
+      value: BossLevel
+      objectReference: {fileID: 0}
+    - target: {fileID: 2468499415092457980, guid: 255019cfd8b53064c833ebeb5f30fc1b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2881967230030509351, guid: 255019cfd8b53064c833ebeb5f30fc1b, type: 3}
       propertyPath: m_RootOrder
