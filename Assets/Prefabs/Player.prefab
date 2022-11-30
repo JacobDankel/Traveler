@@ -25,7 +25,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1948167697919845247}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1, y: 0, z: 0}
+  m_LocalPosition: {x: 0.892, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -126,9 +126,10 @@ GameObject:
   m_Component:
   - component: {fileID: 6281855654547441606}
   - component: {fileID: 6281855654547441601}
-  - component: {fileID: 6281855654547441603}
+  - component: {fileID: 8053285161148949343}
+  - component: {fileID: 6516729420266933425}
   - component: {fileID: 6281855654547441600}
-  - component: {fileID: 5131893175425826722}
+  - component: {fileID: 3135549173821636253}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -193,7 +194,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d0d41fb841eb2a947a770513d28cafa4, type: 3}
+  m_Sprite: {fileID: -397608248, guid: 7b95cdc184d9343439fc3c67f7200efe, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -204,8 +205,8 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &6281855654547441603
-BoxCollider2D:
+--- !u!70 &8053285161148949343
+CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -217,39 +218,10 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
---- !u!114 &6281855654547441600
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6281855654547441602}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ae1b9adfdbdcb94b9d82f7fd7c10727, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  col: {fileID: 0}
-  body: {fileID: 0}
-  spriteRenderer: {fileID: 0}
-  speed: 2
-  Bullet: {fileID: 4298515193919193235, guid: 38d4c3256fdbc6347a1a4a852ae8b2f9, type: 3}
-  gun: {fileID: 7550405468043207532}
-  gunTip: {fileID: 6513971727544769882}
---- !u!50 &5131893175425826722
+  m_Offset: {x: -0.0025723577, y: -0.007717073}
+  m_Size: {x: 0.66848755, y: 1.0954342}
+  m_Direction: 0
+--- !u!50 &6516729420266933425
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 0
@@ -270,3 +242,42 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &6281855654547441600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6281855654547441602}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ae1b9adfdbdcb94b9d82f7fd7c10727, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  col: {fileID: 0}
+  body: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  speed: 3
+  Bullet: {fileID: 4298515193919193235, guid: 38d4c3256fdbc6347a1a4a852ae8b2f9, type: 3}
+  gun: {fileID: 7550405468043207532}
+  gunTip: {fileID: 6513971727544769882}
+--- !u!95 &3135549173821636253
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6281855654547441602}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 3e93a71c286b545f0b597be3ae597ccd, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

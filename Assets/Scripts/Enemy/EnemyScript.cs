@@ -23,12 +23,33 @@ public class EnemyScript : MonoBehaviour
     {
         bod = GetComponent<Rigidbody2D>();
         col = GetComponent<Collider2D>();
+        //target = FindObjectOfType<PlayerController>();
 
         health = maxHP;
-        speed *= 0.01f;
+    }
+
+    private void Update()
+    {
+        if(health <= 0)
+        {
+            Destroy(gameObject);
+        }
     }
 
     private void LateUpdate()
+    {
+        move();
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Bullet"))
+        {
+            Debug.Log("Enemy Hit");
+            health -= 1;
+        }
+    }
+    private void move()
     {
         //Movement
         Vector2 currentPos = gameObject.transform.position;
@@ -59,12 +80,6 @@ public class EnemyScript : MonoBehaviour
             speedX = -speed;
         }
 
-        gameObject.transform.position = new Vector3(transform.position.x + speedX, transform.position.y + speedY, transform.position.z);
-
-    }
-
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        Debug.Log("Hit!");
+        gameObject.transform.position = new Vector3(transform.position.x + speedX * Time.deltaTime, transform.position.y + speedY * Time.deltaTime, transform.position.z);
     }
 }

@@ -1,0 +1,1327 @@
+fileFormatVersion: 2
+guid: a706cf60fd1754f799fde419abd4aa60
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: stand_front
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 539
+        width: 65
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f73894115b65468e8a1936920ff09ff
+      internalID: 688047371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stand_right
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 539
+        width: 65
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b89351a1e7ed4990bda88b5cd57e4ad
+      internalID: -54601880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stand_back
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 539
+        width: 65
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa7e0d5a5f82d4f3a865216139b272e5
+      internalID: 443050135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RBstand_front
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 519
+        width: 65
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0522ac68dd354771b317fd213e8b7c0
+      internalID: -220306137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RBstand_right
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 519
+        width: 55
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7687eb8218f4a4278a997c54e04bc1bc
+      internalID: 140404636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RBstand_back
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 519
+        width: 65
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd2911c7c781a49f7999711f694ef948
+      internalID: -384960888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wagglinBrows_front
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 483
+        width: 65
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd1467be4378c400b9f9ba9505a37233
+      internalID: -633000336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wagglinBrows_right
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 483
+        width: 65
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd8e32d8c07e34660b82ba40b4682c72
+      internalID: 1966432667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RBwalk1_front
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 444
+        width: 65
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33b38d5c1dfe148529423940af6ee136
+      internalID: -1207074026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RBwalk1_right
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 443
+        width: 59
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c49602028e3c547c3aca20c8dabd5a70
+      internalID: -622394250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RBwalk1_back
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 441
+        width: 63
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76d3295da346a44f89340c485ec9d700
+      internalID: 824815348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk1_front
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 427
+        width: 65
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b24dd5095443749129c4cc6710567dda
+      internalID: -1793957711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk1_right
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 427
+        width: 65
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 798c9bb98b9854b85b9d80f22d1ab727
+      internalID: -1515363192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk1_back
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 427
+        width: 65
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3646850cf44e48878950d7610ed03b0
+      internalID: -314709963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk2_front
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 371
+        width: 65
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d88a7db3a39554ed6a3ecdb4fc29c938
+      internalID: -1678174126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk2_right
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 371
+        width: 65
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa596d5a9f1934d5a9431c8b4e5b327d
+      internalID: 1434941260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk2_back
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 371
+        width: 65
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b637bd5e254134b53ac900f45443b601
+      internalID: -1682872009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RBwalk2_front
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 371
+        width: 61
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a1c41f067baf435f90ab00749bb083f
+      internalID: -1014433900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RBwalk2_right
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 371
+        width: 55
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d28655606a0fc45438571f754e1b7708
+      internalID: -733111868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RBwalk2_back
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 370
+        width: 64
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43e2e6d9541d747c68c80de2bd946cf9
+      internalID: 1224990004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk3_front
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 315
+        width: 65
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42c807baf62e44132bffaa088b9fc6a0
+      internalID: -40362543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk3_right
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 315
+        width: 65
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f46a5db695914127bd1435997a5cf31
+      internalID: 866830474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk3_back
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 315
+        width: 65
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9f0bf167fcd24130980b1d0f7380c5d
+      internalID: 2001280252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RBwalk3_front
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 293
+        width: 67
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dca713cce0a44642991e0dbc4020f9d
+      internalID: -24683106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RBwalk3_right
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 293
+        width: 55
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dc13115f013e49a9bd92fbf0ece9725
+      internalID: 126121759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RBwalk3_back
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 294
+        width: 66
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28fcbde42ac8242508d1a70cf59653db
+      internalID: -2094629337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk4_front
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 259
+        width: 65
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cd469344c1c8423d926a75a2ae3f15c
+      internalID: -1759485822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk4_right
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 259
+        width: 65
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9149c2563fa9648519d560e231fdc212
+      internalID: 1823511024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk4_back
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 259
+        width: 65
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0314290821d594764813e3de9c695572
+      internalID: 918592943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RBwalk4_front
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 219
+        width: 69
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cb215e704b4f4951ae636771f732955
+      internalID: 1525492193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RBwalk4_right
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 220
+        width: 62
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06fdaf7afee6144089521ef6f07e2009
+      internalID: -857993328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RBwalk4_back
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 218
+        width: 65
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 352906ab31fa341ff9616f53436b3d27
+      internalID: 1181956603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run1_front
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 193
+        width: 65
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42bb28d7edec3460880d00a26bf66404
+      internalID: -724961996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run1_right
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 193
+        width: 65
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86b95be6626b841de8b3ab5661bef3de
+      internalID: 2095757102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run1_back
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 192
+        width: 65
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19026e9abeeeb4fc2bc59f5b0997ac5d
+      internalID: -1452099060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run2_front
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 128
+        width: 65
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eba76d8231654a8894075637e5b2210
+      internalID: 1306785477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run2_right
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 129
+        width: 65
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 505e47417de574c29b532d13915e51e1
+      internalID: 584546018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run2_back
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 128
+        width: 65
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bad6f92faab874202b643bc33e68451b
+      internalID: -1742155980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RBfire1_front
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 147
+        width: 70
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a2a78ccd26b84e3780a4349349c97e5
+      internalID: -1352098667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RBfire1_right
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 147
+        width: 55
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec22fbd5d5d754d26b17b0617e4838d3
+      internalID: -1537997534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RBfire1_back
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 147
+        width: 65
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b9e7f53558b140b5b4e2953bae5cf24
+      internalID: 1352167663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run3_front
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 61
+        width: 65
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edd8975832c1e46ac973e487271e5db6
+      internalID: -1749779989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run3_right
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 63
+        width: 65
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f7f6414339064c669223afedd691a62
+      internalID: 2085159370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run3_back
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 61
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04b928c2f74f44b7a927e4fefbd0cf49
+      internalID: 1285637418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RBfire2_front
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 68
+        width: 67
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7808e58e66f954f859cead1c2d50c248
+      internalID: -565973170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RBfire2_right
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 66
+        width: 57
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2ef3fbac83fa4baaba5b89623e4252f
+      internalID: -1416050483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run4_front
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 0
+        width: 65
+        height: 62
+      alignment: 9
+      pivot: {x: 0.49999988, y: 0.4872673}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ee69fe2e0db4460caa6e99a76f836de
+      internalID: -605955435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run4_right
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 0
+        width: 65
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed676cadb74854600abd4e317935fac0
+      internalID: -116138766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run4_back
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 0
+        width: 65
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08ef599b9ef174a3da33227e0fb9d303
+      internalID: 1389209576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RBdeath1
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 18
+        width: 71
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9177d10147044606893ae12f42e5ded
+      internalID: 1575827059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RBdeath2
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 21
+        width: 71
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4033c56fabd4498692b203e6931a8f7
+      internalID: -1169780475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Untitled design-3_32: 761451686
+      Untitled design-3_25: 2100965326
+      Untitled design-3_17: -1976547844
+      Untitled design-3_20: 2042339222
+      Untitled design-3_114: 1817618457
+      RBwalk2_back: 1224990004
+      RBdeath1: 1575827059
+      RBfire2_front: -565973170
+      Untitled design-3_109: -879599902
+      stand_back: 443050135
+      Untitled design-3_10: -595983336
+      RBwalk3_back: -2094629337
+      run3_back: 1285637418
+      walk2_front: -1678174126
+      RBstand_front: -220306137
+      RBwalk4_back: 1181956603
+      Untitled design-3_27: 2030491810
+      Untitled design-3_117: 1918689571
+      Untitled design-3_83: -241997879
+      Untitled design-3_102: -1344186908
+      run3_right: 2085159370
+      Untitled design-3_42: 1740666743
+      Untitled design-3_90: 1826130826
+      Untitled design-3_106: -327623057
+      RBwalk3_front: -24683106
+      Untitled design-3_116: -341694089
+      Untitled design-3_101: 55781830
+      Untitled design-3_58: 1619997913
+      Untitled design-3_99: 2040200801
+      walk3_front: -40362543
+      Untitled design-3_66: 1050947018
+      Untitled design-3_75: 1352281820
+      Untitled design-3_30: 526975994
+      walk4_right: 1823511024
+      RBwalk4_right: -857993328
+      Untitled design-3_92: 801552217
+      Untitled design-3_37: -60701158
+      stand_frontright: -793281355
+      walk1_front: -1793957711
+      run2_right: 584546018
+      walk4_back: 918592943
+      Untitled design-3_56: 2013667349
+      Untitled design-3_89: 2099500145
+      RBdeath2: -1169780475
+      run4_front: -605955435
+      Untitled design-3_73: 1260727989
+      RBfire2_right: -1416050483
+      Untitled design-3_54: -2065663481
+      wagglinBrows_right: 1966432667
+      RBfire1_back: 1352167663
+      run1_back: -1452099060
+      Untitled design-3_77: 514131114
+      Untitled design-3_46: -119438511
+      stand_front: 688047371
+      RBwalk2_front: -1014433900
+      walk1_right: -1515363192
+      Untitled design-3_65: 1582649851
+      stand_backright: 869487399
+      Untitled design-3_113: -280012417
+      Untitled design-3_49: 1953847364
+      Untitled design-3_78: -1510080545
+      Untitled design-3_61: 1446969967
+      Untitled design-3_31: 1459013797
+      run2_front: 1306785477
+      run4_right: -116138766
+      Untitled design-3_22: 113155899
+      walk3_back: 2001280252
+      run4_back: 1389209576
+      WagglinBrows_frontright: -638203173
+      Untitled design-3_44: 2036842519
+      Untitled design-3_81: 804196498
+      Untitled design-3_33: 557008165
+      RBwalk3_right: 126121759
+      Untitled design-3_107: -1236400382
+      Untitled design-3_15: -1239369233
+      walk2_right: 1434941260
+      Untitled design-3_16: 1861906141
+      Untitled design-3_51: 1453959861
+      Untitled design-3_8: -1415619468
+      Untitled design-3_63: 130919663
+      walk2_back: -1682872009
+      run3_front: -1749779989
+      Untitled design-3_70: 321034266
+      Untitled design-3_35: -1477685393
+      Untitled design-3_5: 458799968
+      Untitled design-3_82: 1197819689
+      Untitled design-3_39: 913995556
+      Untitled design-3_87: -350941779
+      Untitled design-3_97: -568226692
+      RBwalk1_back: 824815348
+      Untitled design-3_119: 1164361400
+      Untitled design-3_94: 1830290687
+      RBwalk4_front: 1525492193
+      Untitled design-3_34: 1928441497
+      stand_right: -54601880
+      wagglinBrows_front: -633000336
+      Untitled design-3_80: 268667545
+      RBstand_right: 140404636
+      walk4_front: -1759485822
+      RBfire1_front: -1352098667
+      RBstand_back: -384960888
+      Untitled design-3_68: 855083243
+      RBfire1_right: -1537997534
+      run1_front: -724961996
+      run1_right: 2095757102
+      RBwalk1_front: -1207074026
+      Untitled design-3_41: -1237580447
+      Untitled design-3_53: 224060771
+      Untitled design-3_79: -2018021262
+      run2_back: -1742155980
+      Untitled design-3_104: -893348464
+      Untitled design-3_29: 2033413528
+      Untitled design-3_120: 647360381
+      RBwalk1_right: -622394250
+      walk3_right: 866830474
+      RBwalk2_right: -733111868
+      Untitled design-3_111: -1989283357
+      Untitled design-3_18: 385670814
+      walk1_back: -314709963
+      Untitled design-3_6: -1336511249
+      Untitled design-3_85: 1788346196
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
