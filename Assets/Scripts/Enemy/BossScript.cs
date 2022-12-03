@@ -27,6 +27,7 @@ public class BossScript : MonoBehaviour
     public GameObject player;
     public Transform gunExit;
     public float cooldown;
+    public bool canShoot;
 
     private void Start()
     {
@@ -35,6 +36,7 @@ public class BossScript : MonoBehaviour
         //target = FindObjectOfType<PlayerController>();
 
         health = maxHP;
+        canShoot = true;
     }
 
     private void Update()
@@ -43,11 +45,14 @@ public class BossScript : MonoBehaviour
         {
             Destroy(gameObject);
         }
+        if (canShoot)
+        {
+            StartCoroutine(shoot());
+        }
     }
     void LateUpdate()
     {
         move();
-        StartCoroutine(shoot());
     }
 
     private void move()
@@ -77,6 +82,10 @@ public class BossScript : MonoBehaviour
         Instantiate(bullet, gunExit.position, spread);
         Debug.Log("shooting");
 
+        canShoot = false;
+
         yield return new WaitForSecondsRealtime(cooldown);
+
+        canShoot = true;
     }
 }
