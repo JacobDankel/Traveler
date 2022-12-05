@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 240b9d46fea4e76428d282e9147fea32
+guid: ee09013348828d3419eb41d547caa320
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -117,13 +117,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: computer_spritesheet_0
+      name: blowdart_spritesheet_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 16
-        height: 16
+        x: 3
+        y: 6
+        width: 10
+        height: 5
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,14 +131,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 349b49236682a45879178c2159ae706a
-      internalID: 1508040007
+      spriteID: cdebb032ff6b54240bb8a649f79b2911
+      internalID: -793777884
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: computer_spritesheet_1
+      name: blowdart_spritesheet_1
       rect:
         serializedVersion: 2
         x: 16
@@ -152,8 +152,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1f9f785c5a1454f27a8228dacbc29161
-      internalID: -1916281297
+      spriteID: fe39624852df5476caebe2d79053a549
+      internalID: 1363678707
       vertices: []
       indices: 
       edges: []
@@ -169,8 +169,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      computer_spritesheet_1: -1916281297
-      computer_spritesheet_0: 1508040007
+      blowdart_spritesheet_0: -793777884
+      blowdart_spritesheet_1: 1363678707
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
