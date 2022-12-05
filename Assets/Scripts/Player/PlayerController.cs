@@ -6,6 +6,8 @@ using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
+    AudioSource src;
+
     //Components
     public BoxCollider2D col;
     public Rigidbody2D body;
@@ -33,6 +35,7 @@ public class PlayerController : MonoBehaviour
     {
         col = GetComponent<BoxCollider2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
+        src = GetComponent<AudioSource>();
     }
 
 
@@ -86,6 +89,16 @@ public class PlayerController : MonoBehaviour
             SceneManager.LoadScene("OptionMenu");
 
         }
+
+        if(!src.isPlaying && (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.D)))
+        {
+            src.Play();
+        }
+
+        if (src.isPlaying && !(Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.D)))
+        {
+            src.Stop();
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -127,6 +140,7 @@ public class PlayerController : MonoBehaviour
         {
             gameObject.transform.position = new Vector3(transform.position.x + speed * Time.deltaTime, transform.position.y, transform.position.z);
         }
+        
     }
 
     private void Shoot()
