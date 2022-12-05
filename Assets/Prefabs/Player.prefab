@@ -258,6 +258,7 @@ MonoBehaviour:
   body: {fileID: 0}
   spriteRenderer: {fileID: 0}
   speed: 3
+  portal: {fileID: 0}
   Bullet: {fileID: 4298515193919193235, guid: 38d4c3256fdbc6347a1a4a852ae8b2f9, type: 3}
   gun: {fileID: 7550405468043207532}
   gunTip: {fileID: 6513971727544769882}

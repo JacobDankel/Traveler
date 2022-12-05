@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Threading;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -77,6 +78,14 @@ public class PlayerController : MonoBehaviour
         {
             portal.teleport();
         }
+     
+        // Interact Button 'P'
+        if (Input.GetKeyDown(KeyCode.P))
+        {
+           
+            SceneManager.LoadScene("OptionMenu");
+
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -126,4 +135,5 @@ public class PlayerController : MonoBehaviour
 
         Instantiate(Bullet, gunTip.position, direction);
     }
+
 }
