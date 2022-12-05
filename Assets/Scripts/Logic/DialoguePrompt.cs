@@ -19,8 +19,8 @@ public class DialoguePrompt : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        /*if (Input.GetKeyDown(KeyCode.T))
-            SetDialogue("JT-CEO1");*/
+        if (Input.GetKeyDown(KeyCode.T))
+            SetDialogue("JT-CEO1");
 
         if (currentDialogue != "")
             if (!DialogueBox.activeSelf)

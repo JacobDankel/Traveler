@@ -9,6 +9,7 @@ public class Dialogue : MonoBehaviour
     public TextMeshProUGUI Speaker;
     public TextMeshProUGUI Speaking;
     public GameObject dialogueObject;
+    AudioSource src;
     public List<string> lines;
     [SerializeField]
     float textSpeed;
@@ -30,6 +31,7 @@ public class Dialogue : MonoBehaviour
         Speaker.text = string.Empty;
         Speaking.text = string.Empty;
         currentDialogue = dialogueObject.GetComponent<DialoguePrompt>().GetDialogue();
+        src = GetComponent<AudioSource>();
 
         FileInfo dialogueFile = new FileInfo("Assets\\Dialogue\\" + currentDialogue + ".txt");
         StreamReader reader = dialogueFile.OpenText();
@@ -73,6 +75,7 @@ public class Dialogue : MonoBehaviour
         foreach (char c in lines[index].ToCharArray())
         {
             Speaking.text += c;
+            src.Play();
             yield return new WaitForSeconds(textSpeed);
         }
     }
