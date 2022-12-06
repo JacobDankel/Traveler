@@ -124,8 +124,10 @@ MonoBehaviour:
   bod: {fileID: 4033189978557631770}
   col: {fileID: 5714462114693583129}
   target: {fileID: 0}
-  speed: 0.15
+  speed: 0.35
   maxHP: 10
+  health: 0
+  score: 8
 --- !u!70 &5714462114693583129
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

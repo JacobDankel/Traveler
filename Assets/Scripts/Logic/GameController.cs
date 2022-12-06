@@ -10,13 +10,23 @@ public class GameController : MonoBehaviour
 {
     public TextMeshProUGUI timeText;
     private int time;
+
+    public GameObject boss;
+
+    public GameObject victoryScreen;
+    public TextMeshProUGUI score;
+    private float fixedDeltaTime;
+
+    private void Awake()
+    {
+        this.fixedDeltaTime = Time.fixedDeltaTime;
+    }
     void Start()
     {
         time = 0;
         UpdateTime(0);
     }
 
-    // Update is called once per frame
     void Update()
     {
         //Quitting Game
@@ -24,14 +34,20 @@ public class GameController : MonoBehaviour
         {
             Application.Quit();
         }
+
+        if(boss == null)
+        {
+            victoryScreen.SetActive(true);
+            victoryScreen.GetComponent<TextMeshProUGUI>().text = "Congratuations";
+            score.text = "Your Score was: " + time;
+            Time.fixedDeltaTime = this.fixedDeltaTime * Time.timeScale;
+        }
     }
 
     public void UpdateTime(int timeToAdd)
     {
-        time += timeToAdd; 
+        time += timeToAdd;
         timeText.text = "Time: " + time;
 
     }
-
-
 }

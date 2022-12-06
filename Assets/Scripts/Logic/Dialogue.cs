@@ -19,6 +19,9 @@ public class Dialogue : MonoBehaviour
     [SerializeField]
     string currentDialogue;
 
+    [Space]
+    public GameObject door;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -95,6 +98,7 @@ public class Dialogue : MonoBehaviour
             Speaking.text = string.Empty;
             lines.Clear();
             dialogueObject.GetComponent<DialoguePrompt>().SetDialogue("");
+            Destroy(door);
             gameObject.SetActive(false);
         }
     }

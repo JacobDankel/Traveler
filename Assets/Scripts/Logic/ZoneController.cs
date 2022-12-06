@@ -22,14 +22,24 @@ public class ZoneController : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            Debug.Log("Player in Zone " + zoneNum);
             for(int i = 0; i < enemies.Length; i++)
             {
-                enemies[i].setTarget(player);
+                enemies[i].setTarget(player.transform);
             }
             if (isBoss)
             {
                 boss.setTarget(player);
+            }
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player"))
+        {
+            for (int i = 0; i < enemies.Length; i++)
+            {
+                enemies[i].setTarget(null);
             }
         }
     }

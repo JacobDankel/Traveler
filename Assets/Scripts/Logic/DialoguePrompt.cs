@@ -9,22 +9,26 @@ public class DialoguePrompt : MonoBehaviour
 
     public GameObject DialogueBox;
 
+    public bool dialogueRunning = false;
+
     // Start is called before the first frame update
     void Start()
     {
         DialogueBox = GameObject.Find("/Dialogue").transform.Find("DialogueBox").gameObject;
-        currentDialogue = "";
+        currentDialogue = ""; 
+        SetDialogue("JT-CEO1");
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.T))
-            SetDialogue("JT-CEO1");
-
         if (currentDialogue != "")
             if (!DialogueBox.activeSelf)
+            {
                 DialogueBox.SetActive(true);
+                dialogueRunning = true;
+            }
+
 
     }
 

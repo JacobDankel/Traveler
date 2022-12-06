@@ -29,11 +29,16 @@ public class PlayerController : MonoBehaviour
     public Transform gunTip;
     private Vector3 object_pos;
     private float angle;
+
+    //Health
+    public int maxHp;
+    private int hp;
     
 
     // Start is called before the first frame update
     void Start()
     {
+        hp = maxHp;
         col = GetComponent<BoxCollider2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         src = GetComponent<AudioSource>();

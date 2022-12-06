@@ -12,17 +12,18 @@ public class EnemyScript : MonoBehaviour
 
     //Movement
     [Space]
-    public GameObject target;
+    public Transform target;
     public float speed;
 
     //Health
     [Space]
     [SerializeField]
     public float maxHP;
-    private float health;
+    public float health;
 
     // Time
     private GameController gameController;
+    public int score;
 
     private void Start()
     {
@@ -30,7 +31,7 @@ public class EnemyScript : MonoBehaviour
         col = GetComponent<Collider2D>();
         gameController = GameObject.Find("GameController").GetComponent<GameController>();
         //target = FindObjectOfType<PlayerController>();
-
+        score = 5;
         health = maxHP;
 
         anim = GetComponent<Animator>();
@@ -40,9 +41,9 @@ public class EnemyScript : MonoBehaviour
     {
         if(health <= 0)
         {
-            anim.SetBool("IsHurt", true);
-            //Destroy(gameObject);
-            gameController.UpdateTime(5);
+            //anim.SetBool("IsHurt", true);
+            gameController.UpdateTime(score);
+            Destroy(gameObject);
         }
     }
 
@@ -61,9 +62,13 @@ public class EnemyScript : MonoBehaviour
     }
     private void move()
     {
+        if (target == null)
+        {
+            return;
+        }
         //Movement
         Vector2 currentPos = gameObject.transform.position;
-        Vector2 targetPos = target.transform.position;
+        Vector2 targetPos = target.position;
         Vector2 diff = currentPos - targetPos;
 
         float speedX;
@@ -94,8 +99,8 @@ public class EnemyScript : MonoBehaviour
 
         if (diff.x != 0 || diff.y != 0)
         {
-            anim.SetFloat("X", diff.x);
-            anim.SetFloat("Y", diff.y);
+            anim.SetFloat("X", diff.x * -1);
+            anim.SetFloat("Y", diff.y * -1);
             anim.SetBool("IsWalking", true);
         } else
         {
@@ -110,7 +115,7 @@ public class EnemyScript : MonoBehaviour
         }
     }
 
-    public void setTarget(GameObject newTarget)
+    public void setTarget(Transform newTarget)
     {
         target = newTarget;
     }

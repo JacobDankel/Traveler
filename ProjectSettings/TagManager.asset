@@ -9,6 +9,8 @@ TagManager:
   - Portal
   - Dialogue
   - Zone
+  - Wall
+  - Boss
   layers:
   - Default
   - TransparentFX

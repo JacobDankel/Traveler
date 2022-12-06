@@ -150,8 +150,10 @@ MonoBehaviour:
   bod: {fileID: 978759129265899394}
   col: {fileID: 835790878693126400}
   target: {fileID: 0}
-  speed: 0.25
+  speed: 0.5
   maxHP: 20
+  health: 0
+  score: 12
 --- !u!95 &4649124536053262878
 Animator:
   serializedVersion: 4
