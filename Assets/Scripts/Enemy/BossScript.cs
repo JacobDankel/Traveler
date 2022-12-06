@@ -8,6 +8,8 @@ public class BossScript : MonoBehaviour
     public Rigidbody2D bod;
     public Collider2D col;
 
+    private Animator anim;
+
     //Movement
     [Space]
     public GameObject nodeL;
@@ -34,6 +36,7 @@ public class BossScript : MonoBehaviour
         bod = GetComponent<Rigidbody2D>();
         col = GetComponent<Collider2D>();
         //target = FindObjectOfType<PlayerController>();
+        anim = GetComponent<Animator>();
 
         health = maxHP;
         canShoot = true;
@@ -43,7 +46,8 @@ public class BossScript : MonoBehaviour
     {
         if (health <= 0)
         {
-            Destroy(gameObject);
+            anim.SetBool("IsHurt", true);
+            //Destroy(gameObject);
         }
         if (canShoot)
         {

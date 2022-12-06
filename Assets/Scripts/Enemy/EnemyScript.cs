@@ -8,6 +8,8 @@ public class EnemyScript : MonoBehaviour
     public Rigidbody2D bod;
     public Collider2D col;
 
+    private Animator anim;
+
     //Movement
     [Space]
     public GameObject target;
@@ -30,14 +32,16 @@ public class EnemyScript : MonoBehaviour
         //target = FindObjectOfType<PlayerController>();
 
         health = maxHP;
+
+        anim = GetComponent<Animator>();
     }
 
     private void Update()
     {
         if(health <= 0)
         {
-            Destroy(gameObject);
-
+            anim.SetBool("IsHurt", true);
+            //Destroy(gameObject);
             gameController.UpdateTime(5);
         }
     }
@@ -87,6 +91,23 @@ public class EnemyScript : MonoBehaviour
         }
 
         gameObject.transform.position = new Vector3(transform.position.x + speedX * Time.deltaTime, transform.position.y + speedY * Time.deltaTime, transform.position.z);
+
+        if (diff.x != 0 || diff.y != 0)
+        {
+            anim.SetFloat("X", diff.x);
+            anim.SetFloat("Y", diff.y);
+            anim.SetBool("IsWalking", true);
+        } else
+        {
+            anim.SetBool("IsWalking", false);
+        }
+        if (diff.x <= 0.001 || diff.y <= 0.001)
+        {
+            anim.SetBool("IsAttacking", true);
+        } else
+        {
+            anim.SetBool("IsAttacking", false);
+        }
     }
 
     public void setTarget(GameObject newTarget)
