@@ -465,6 +465,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 79d046920d3d340b68030daa47600b0e, type: 3}
+--- !u!1 &590088026 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6281855654547441602, guid: cea6dda0f13ed0b40ac695cb90274b68, type: 3}
+  m_PrefabInstance: {fileID: 1184616270}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &754652983
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12952,6 +12957,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: OrangeGuard
       objectReference: {fileID: 0}
+    - target: {fileID: 7307226572967931381, guid: 59f9849f1eb6842e8bd7032875fe1cee, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 590088026}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 59f9849f1eb6842e8bd7032875fe1cee, type: 3}
 --- !u!1001 &1594174437
