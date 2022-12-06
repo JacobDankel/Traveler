@@ -15,6 +15,8 @@ public class Dialogue : MonoBehaviour
     float textSpeed;
 
     private int index;
+    [SerializeField]
+    private float textTimeout;
 
     [SerializeField]
     string currentDialogue;
@@ -22,11 +24,12 @@ public class Dialogue : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     private void OnEnable()
     {
+        textTimeout = 0;
         dialogueObject = GameObject.Find("/Dialogue");
         Speaker.text = string.Empty;
         Speaking.text = string.Empty;
@@ -47,7 +50,9 @@ public class Dialogue : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        textTimeout += Time.deltaTime;
+
+        if (Input.GetKeyDown(KeyCode.Space) || textTimeout > 2.5)
         {
             if (Speaking.text == lines[index])
             {
@@ -57,7 +62,8 @@ public class Dialogue : MonoBehaviour
             {
                 StopAllCoroutines();
                 Speaking.text = lines[index];
-            } 
+            }
+            textTimeout = 0;
         }
     }
 
@@ -77,6 +83,7 @@ public class Dialogue : MonoBehaviour
             Speaking.text += c;
             src.Play();
             yield return new WaitForSeconds(textSpeed);
+            textTimeout = 0;
         }
     }
 

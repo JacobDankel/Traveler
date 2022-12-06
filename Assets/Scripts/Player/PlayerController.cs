@@ -28,7 +28,10 @@ public class PlayerController : MonoBehaviour
     public Transform gunTip;
     private Vector3 object_pos;
     private float angle;
-    
+
+    //Melee Weapons
+    public Transform sword;
+    public Transform spear;
 
     // Start is called before the first frame update
     void Start()
@@ -48,11 +51,17 @@ public class PlayerController : MonoBehaviour
         {
             spriteRenderer.flipX = false;
             gun.transform.localPosition = new Vector3(1, 0, 0);
+            //Sword and spear?
+            sword.transform.localPosition = new Vector3(1, 0, 0);
+            spear.transform.localPosition = new Vector3(1, 0, 0);
         } 
         else
         {
             spriteRenderer.flipX = true;
             gun.transform.localPosition = new Vector3(-1, 0, 0);
+            //Sword and spear?
+            sword.transform.localPosition = new Vector3(-1, 0, 0);
+            spear.transform.localPosition = new Vector3(-1, 0, 0);
         }
 
         //Rotate Bullet Exit toward the cursor
