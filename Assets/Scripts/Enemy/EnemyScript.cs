@@ -21,10 +21,14 @@ public class EnemyScript : MonoBehaviour
     public float maxHP;
     private float health;
 
+    // Time
+    private GameController gameController;
+
     private void Start()
     {
         bod = GetComponent<Rigidbody2D>();
         col = GetComponent<Collider2D>();
+        gameController = GameObject.Find("GameController").GetComponent<GameController>();
         //target = FindObjectOfType<PlayerController>();
 
         health = maxHP;
@@ -38,6 +42,7 @@ public class EnemyScript : MonoBehaviour
         {
             anim.SetBool("IsHurt", true);
             //Destroy(gameObject);
+            gameController.UpdateTime(5);
         }
     }
 
@@ -103,5 +108,10 @@ public class EnemyScript : MonoBehaviour
         {
             anim.SetBool("IsAttacking", false);
         }
+    }
+
+    public void setTarget(GameObject newTarget)
+    {
+        target = newTarget;
     }
 }

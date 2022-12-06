@@ -79,6 +79,11 @@ public class BossScript : MonoBehaviour
         }
     }
 
+    public void setTarget(GameObject player)
+    {
+        this.player = player;
+    }
+
     IEnumerator shoot()
     {
         Vector2 aim = transform.position - player.transform.position;
