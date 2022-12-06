@@ -346,6 +346,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef57ec2930ec356438445dab668f858e, type: 3}
+--- !u!114 &336699306 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8370042725748696199, guid: ef57ec2930ec356438445dab668f858e, type: 3}
+  m_PrefabInstance: {fileID: 336699305}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ee9e0ea3246cbf4a8c0557460c9a6e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &393507979
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -749,7 +760,7 @@ GameObject:
   m_Component:
   - component: {fileID: 907337189}
   m_Layer: 0
-  m_Name: Enemy Target Zones
+  m_Name: Zones
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1049,6 +1060,7 @@ MonoBehaviour:
   - {fileID: 638167571}
   - {fileID: 801786013}
   - {fileID: 408460586}
+  boss: {fileID: 336699306}
 --- !u!4 &1092802538 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1707730503577370811, guid: 73bd70133d6424c568d6fa4e6b40673f, type: 3}
@@ -13448,8 +13460,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   zoneNum: 4
   player: {fileID: 0}
-  enemies:
-  - {fileID: 0}
+  enemies: []
+  boss: {fileID: 336699306}
 --- !u!1 &1446518307
 GameObject:
   m_ObjectHideFlags: 0
@@ -13907,6 +13919,7 @@ MonoBehaviour:
   - {fileID: 887762769}
   - {fileID: 1384829584}
   - {fileID: 1092802540}
+  boss: {fileID: 336699306}
 --- !u!1001 &1594174437
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14165,6 +14178,7 @@ MonoBehaviour:
   - {fileID: 29183874}
   - {fileID: 1563673319}
   - {fileID: 1609204452}
+  boss: {fileID: 336699306}
 --- !u!1 &1819427080
 GameObject:
   m_ObjectHideFlags: 0

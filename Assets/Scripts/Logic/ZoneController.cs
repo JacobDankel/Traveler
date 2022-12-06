@@ -10,6 +10,9 @@ public class ZoneController : MonoBehaviour
 
     public EnemyScript[] enemies;
 
+    public BossScript boss;
+
+    private bool isBoss = false;
     public string getZoneNum()
     {
         return zoneNum; 
@@ -24,6 +27,18 @@ public class ZoneController : MonoBehaviour
             {
                 enemies[i].setTarget(player);
             }
+            if (isBoss)
+            {
+                boss.setTarget(player);
+            }
+        }
+    }
+
+    private void Awake()
+    {
+        if (zoneNum == "4")
+        {
+            isBoss = true;
         }
     }
 }
