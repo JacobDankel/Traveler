@@ -43,5 +43,9 @@ public class BulletScript : MonoBehaviour
         {
             Destroy(gameObject);
         }
+        if (collision.CompareTag("Wall"))
+        {
+            Destroy(gameObject);
+        }
     }
 }

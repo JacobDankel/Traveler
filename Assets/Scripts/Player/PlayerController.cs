@@ -12,6 +12,7 @@ public class PlayerController : MonoBehaviour
     public BoxCollider2D col;
     public Rigidbody2D body;
     public SpriteRenderer spriteRenderer;
+    private Animator anim;
 
     //Movement
     [Space]
@@ -39,6 +40,7 @@ public class PlayerController : MonoBehaviour
         col = GetComponent<BoxCollider2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         src = GetComponent<AudioSource>();
+        anim = GetComponent<Animator>();
     }
 
 
@@ -99,6 +101,7 @@ public class PlayerController : MonoBehaviour
 
         }
 
+        // Audio Changes
         if(!src.isPlaying && (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.D)))
         {
             src.Play();
@@ -107,6 +110,12 @@ public class PlayerController : MonoBehaviour
         if (src.isPlaying && !(Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.D)))
         {
             src.Stop();
+        }
+
+        if (mouse_pos.x != 0 || mouse_pos.y != 0)
+        {
+            anim.SetFloat("X", mouse_pos.x);
+            anim.SetFloat("Y", mouse_pos.y);
         }
     }
 
@@ -149,7 +158,13 @@ public class PlayerController : MonoBehaviour
         {
             gameObject.transform.position = new Vector3(transform.position.x + speed * Time.deltaTime, transform.position.y, transform.position.z);
         }
-        
+
+        if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.D)) {
+            anim.SetBool("IsWalking", true);
+        } else
+        {
+            anim.SetBool("IsWalking", false);
+        }
     }
 
     private void Shoot()
